@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--    <style name="CustomThemeOverlay_MaterialCalendar" parent="@style/ThemeOverlay.MaterialComponents.MaterialCalendar.Fullscreen">-->
+<!--        <item name="materialCalendarStyle">@style/CustomThemeOverlay_MaterialCalendar.FullScreen</item>-->
+<!--&lt;!&ndash;        <item name="colorPrimary">@color/magenta</item>&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="colorOnSurface">@color/white</item>&ndash;&gt;-->
+<!--    </style>-->
+
+<!--    <style name="CustomThemeOverlay_MaterialCalendar.FullScreen" parent="@style/Widget.MaterialComponents.MaterialCalendar.Fullscreen">-->
+<!--        <item name="android:windowFullscreen">false</item>-->
+<!--&lt;!&ndash;        <item name="colorOnSurface">@color/magenta</item> &lt;!&ndash; numbers color &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="colorPrimary">@color/magenta</item> &lt;!&ndash; buttons color &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="colorAccent">@color/magenta</item> &lt;!&ndash; not change nothing or i not find &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="colorBackgroundFloating">@color/magenta</item> &lt;!&ndash; not change nothing or i not find &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="colorOnBackground">@color/magenta</item> &lt;!&ndash; not change nothing or i not find &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;        <item name="android:colorBackground">@color/magenta</item> &lt;!&ndash; not change nothing or i not find &ndash;&gt;&ndash;&gt;-->
+<!--    </style>-->
+
+
+<!--    <style name="CustomThemeOverlay_MaterialCalendar.FullScreen" parent="@style/Widget.MaterialComponents.MaterialCalendar.Fullscreen">-->
+<!--        <item name="android:windowFullscreen">false</item>-->
+<!--    </style>-->
+
+    <style name="ThemeMaterialCalendar" parent="ThemeOverlay.MaterialComponents.MaterialCalendar">
+        <item name="buttonBarPositiveButtonStyle">@style/ThemeMaterialCalendarButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/ThemeMaterialCalendarButton</item>
+        <item name="materialButtonStyle">@style/ThemeMaterialCalendarTextButton</item>
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/magenta</item>
+        <item name="colorAccent">@color/green</item>
+        <item name="android:headerBackground">@color/magenta</item>
+    </style>
+
+    <style name="ThemeMaterialCalendarButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/magenta</item>
+    </style>
+
+    <style name="ThemeMaterialCalendarTextButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog.Flush">
+        <item name="android:textColor">@color/white</item>
+        <item name="iconTint">@color/red</item>
+    </style>
+
+</resources>

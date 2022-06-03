@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DatePickerTemp</string>
+    <!--    <string name="mtrl_picker_save" description="Confirms the selection [CHAR_LIMIT=12]">Save Date</string>-->
+    <!--    <string name="mtrl_picker_text_input_date_range_start_hint" description="Label for the start date in a range selected by the user [CHAR_LIMIT=60]">From</string>-->
+    <!--    <string name="mtrl_picker_text_input_date_range_start" description="Label for the start date in a range selected by the user [CHAR_LIMIT=60]">From</string>-->
+    <!--    <string name="mtrl_picker_text_input_date_range_end_hint" description="Label for the start date in a range selected by the user [CHAR_LIMIT=60]">Till</string>-->
+    <!--    <string name="mtrl_picker_confirm" description="Button text to indicate that the widget will save the user's selection [CHAR_LIMIT=16]">Select</string>-->
+    <!--    <string name="mtrl_picker_cancel" description="Button text to indicate that the widget will ignore the user's selection [CHAR_LIMIT=16]" translatable="false">Escape</string>-->
+</resources>
