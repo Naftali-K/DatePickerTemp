@@ -76,7 +76,6 @@ public class DialogDatePicker extends DialogFragment {
             public void onSelectedDayChange(@NonNull CalendarView calendarView, int year, int month, int day) {
                 Log.d(TAG, "onSelectedDayChange: i: " + year + " i1: " + (month+1) + " i2: " + day);
                 dateTransferInterface.setDate(year, month, day);
-                dismiss();
             }
         });
 
